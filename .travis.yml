@@ -8,8 +8,8 @@ matrix:
     - os: linux
       compiler: gcc
       env:
-        -CXX_COMPILER=g++-5
-        -C_COMPILER=gcc-5
+        -CXX_COMPILER=g++
+        -C_COMPILER=gcc
       addons:
          apt:
            sources:
