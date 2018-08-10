@@ -14,8 +14,6 @@ matrix:
          apt:
            sources:
             - ubuntu-toolchain-r-test
-           packages:
-            - g++-5
 script:
 - sudo /bin/sh ./getdep_linux.sh
 - mkdir _out
